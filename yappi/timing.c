@@ -1,4 +1,5 @@
 #include "timing.h"
+#include <sys/time.h>
 
 static clock_type_t g_clock_type = CPU_CLOCK;
 
